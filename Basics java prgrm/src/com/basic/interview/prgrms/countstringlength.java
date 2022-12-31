@@ -12,21 +12,23 @@ public class countstringlength {
 		Scanner sc = new Scanner (System.in);
 	
 		String str = sc.nextLine();
+		int a=str.length();
 	
-		char ch[] =str.toCharArray();
+		System.out.println(" using str.length method"+str.length());
 		
-		int count =0;
-		while(ch.length>0) 
+		
+		
+		int count=0;
+		
+		char ch[]=str.toCharArray();
+		
+		for(int i=0;i<ch.length;i++)
 		{
 			
-			
 			count++;
-			
 		}
-		//System.out.println(str);
-		System.out.println(count);
 		
-	 	System.out.println("legnth of string is :"+ str.length());
+		System.out.println(" using the for loop"+count);
 		
 	}
 

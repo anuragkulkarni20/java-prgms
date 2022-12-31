@@ -1,10 +1,7 @@
 package com.basic.interview.prgrms;
 /*  w.a.p to find given num is special/ strong number or not */
 
-/* special / strong  num is Addition of given num and product of givn num is equla to given num 
- * 
- * eg 59 = sum = 5+9=14, prod = 5*9 =45, final =sum+prod = 59
- *  */
+/*  *  */
 
 import java.util.Scanner;
 
@@ -58,11 +55,12 @@ public class specialnum {
 	
 	
 	  public static int fact(int rem) 
-	   { int fact=1; 
-	     for(int i=1;i<=rem;i++) 
-	     {
-	       fact*=i; 
-	     } 
+	   { 
+		  int fact=1; 
+	      for(int i=1;i<=rem;i++) 
+	       {
+	         fact*=i; 
+	       } 
 	  return fact; 
 	   }
 	 

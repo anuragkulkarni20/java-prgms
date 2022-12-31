@@ -22,14 +22,14 @@ public class countno {
 	     {
 	    	 count++;
 	     } 	
-	     System.out.println(count);
+	     System.out.println("length of eneter digits is " +count);
 	     
 	     count=0;
 	     
 	     String s="ajaymohite from";
 	     char ch[]=s.toCharArray();
 	    // System.out.println(s.length());
-	  //    System.out.println(ch.length);
+	      //System.out.println(ch.length);
 	     
 	     for (int i = 0; i < ch.length; i++) {
 	    	 
@@ -39,7 +39,7 @@ public class countno {
 	    	 }
 		}
 	     
-	     System.out.println(count);
+	     System.out.println("leneth of the string :" + count);
 	     
 		
 	}
